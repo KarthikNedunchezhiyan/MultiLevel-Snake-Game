@@ -70,8 +70,11 @@ function draw() {
     background(51);
     fill(219,125,138);
     MAP.show();
-    fill(255);
+    fill(215,26,33);
+    stroke(255);
     ENVIRONMENT.showFood(MAP.safePlaceForFood);
+    noStroke();
+    fill(255);
     SNAKE.gameLoop();
     if(ENVIRONMENT.isFoodConsumed(SNAKE)){
         ENVIRONMENT.changeFoodLocation(MAP.safePlaceForFood);

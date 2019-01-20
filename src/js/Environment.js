@@ -1,5 +1,5 @@
 class Environment{
-    constructor(width,height,foodScale=5){
+    constructor(width,height,foodScale=7){
         this.size = new Vector(width,height);
         this.foodScale = foodScale;
         this.foodCost = 5;
