@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/normalizer.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Snake</title>
+</head>
+<body>
+
+<div id="metaBanner">
+    <div class="container">
+        <div class="block">
+            <div class="number" id="__level">Loading...</div>
+            <div class="banner-icon">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41ihrDXyrwL.png" alt="level">
+            </div>
+        </div>
+        <div class="block">
+            <div style="display: flex">
+                <div class="number" id="__lives">Loading...</div>
+            </div>
+            <div class="banner-icon">
+                <img src="http://www.thelockinmovie.com/wp-content/uploads/2018/09/love-heart-clipart-love-heart-love-heart-romance-clip-art-picture-of-red-heart-png-clipart-for-teachers.jpg" alt="lives">
+            </div>
+        </div>
+        <div class="block">
+            <div class="number" id="__scoreNeed">Loading...</div>
+            <div class="banner-icon">
+                <img src="https://png.pngtree.com/element_pic/17/09/04/05d4cc7f42c91497631511ce3dc29f56.jpg" alt="level target">
+            </div>
+        </div>
+        <div class="block">
+            <div class="number" id="__score">Loading...</div>
+            <div class="banner-icon">
+                <img src="http://pngimg.com/uploads/coin/coin_PNG36871.png" alt="score">
+            </div>
+        </div>
+        <div class="block">
+            <div class="number" id="__timer">Loading...</div>
+            <div class="banner-icon">
+                <img src="https://img.lovepik.com/element/40049/7720.png_1200.png" alt="timer">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="popup" id="gameOver">
+        <div class="popup-inner">
+            <div class="popup__photo">
+                <img src="https://png.pngtree.com/element_origin_min_pic/17/08/04/d88a2a7a4ecf45bd291918e382e02698.jpg" alt="gameOver">
+            </div>
+            <div class="popup__text">
+                <h1>Game Over</h1>
+                <p>Wish to play again? <a href="#" onclick="restart();">Restart</a></p>
+            </div>
+            <a class="popup__close" href="#">X</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="popup" id="youWon">
+        <div class="popup-inner">
+            <div class="popup__photo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsrN-RcZOlqh2jWQWq5J84KVWCHM-E6GonyZLGElVFcJ8YOqJ" alt="gameOver">
+            </div>
+            <div class="popup__text">
+                <h1>You Won</h1>
+                <p>Hurray! You have completed all levels, Wish to play again? <a href="#" onclick="restart();">Restart</a></p>
+            </div>
+            <a class="popup__close" href="#">X</a>
+        </div>
+    </div>
+</div>
+
+<div id="myGameArea"></div>
+<div id="grassFooter"></div>
+
+<script src="../js/p5.min.js"></script>
+<script src="../js/hammer.min.js"></script>
+<script src="../js/shortHands.js"></script>
+<script src="../js/vector.js"></script>
+<script src="../js/snakeDNA.js"></script>
+<script src="../js/Environment.js"></script>
+<script src="../js/map.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
