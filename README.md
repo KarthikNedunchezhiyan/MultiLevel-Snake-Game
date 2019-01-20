@@ -8,7 +8,7 @@
 As it is easily customizable and adaptable to all screen size, you can add it to your web and mobile project,
 For swipe hammerjs is used
 
-You can also used this for machine learning algorithmns like genetic algorithm, neural network, neuro evoluation network and many others....
+You can also use this for machine learning algorithmns like genetic algorithm, neural network, neuro evoluation network and many others....
 Try this game in https://karthiknedunchezhiyan.github.io/MultiLevel-Snake-Game
 
 ## Meta
