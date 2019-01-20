@@ -9,6 +9,12 @@ As it is easily customizable and adaptable to all screen size, you can add it to
 For swipe hammerjs is used
 
 You can also use this for machine learning algorithmns like genetic algorithm, neural network, neuro evoluation network and many others....
+
+1. [main.js](src/js/main.js) has all the controller and game logic
+2. [Environment.js](src/js/Environment.js) has environment controlls like food.
+3. [snakeDNA.js](src/js/snakeDNA.js) has controlls like health, score, (velocity | position | scale ) of snake.
+4. [map.js](src/js/map.js) has map controlls like levels.
+
 Try this game in https://karthiknedunchezhiyan.github.io/MultiLevel-Snake-Game
 
 ## Meta
